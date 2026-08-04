@@ -55,8 +55,7 @@ To use my model, you must:
     4. In your terminal, run this command: cd jetson-inference/python/training/classification
 
 
-    5. Run this command: NET=models/fruitmodel
-DATASET=data/dataset
+    5. Run this command: NET=models/fruitmodel  DATASET=data/dataset
 
 
     6. Run this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/TestHere/Test.png(or replace png with any other image type) TestPhoto.jpg
