@@ -10,13 +10,6 @@ Example of Test: https://drive.google.com/file/d/1q5y-yjTi5U9hMzOvigLitfkGjL1k0t
 
 
 
-
-# Imagenet
-For my project, I used a neural network on Jetson-Inference called Image-net. Image-net lets you use the AI to scan images and uses image classification to determine what each object is. Also, for Image-net, what you have to do is train the model to recognize certain things that you want. For me, I did it to recognize whether fruits apple, banana, and orange are ripe, unripe, or rotten.
-
-
-
-
 # Kaggle Dataset
 For my project, I downloaded a dataset called "Fruit Ripeness: Unripe, Ripe, and Rotten" by a user named Leftin on Kaggle. This dataset has 39,900 images of ripe, unripe, and rotten fruits. The three fruits in the dataset are apples, bananas, and oranges. I used these images to train my model to recognize whether the fruits were ripe or not.
 
@@ -30,7 +23,11 @@ Video explanation: https://drive.google.com/file/d/1lZBsZNtcRPTQTwOVjrq-qCi03ReA
 
 
 ## The Algorithm
-To train the model, I ran a command in the docker of Jetson-Inference to prompt the training. This was the command: python3 train.py --model-dir=models/dataset data/dataset. This made the model run through 35 different epochs of every single image in the folder which trained it to recognize whether fruits are unripe, ripe, or rotten
+To train the model, I ran a command in the docker of Jetson-Inference to prompt the training. This was the command: python3 train.py --model-dir=models/dataset data/dataset. This made the model run through 35 different epochs of every single image in the folder which trained it to recognize whether fruits are unripe, ripe, or rotten. In my project, I used a neural network on Jetson-Inference called Image-net. Image-net lets you use the AI to scan images and uses image classification to determine what each object is. Also, for Image-net, what you have to do is train the model to recognize certain things that you want. For me, I did it to recognize whether fruits apple, banana, and orange are ripe, unripe, or rotten.
+
+How to get clone Jetson-Inference from GitHub:
+
+    git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
 
 
 ## Running this project
@@ -42,26 +39,31 @@ To train the model, I ran a command in the docker of Jetson-Inference to prompt 
 # Steps
 To use my model, you must:
 
-
-    1. Go to my GitHub post and download my model into VS Code
-
-
-    2. Enter your image of a banana, apple, or orange into jetson-inference/python/training/classification/data/dataset/test/TestHere
+1. Go to my GitHub post and download my model into VS Code
 
 
-    3. Name your image Test.png(Or jpg or any other image type)
+2. Enter your image of a banana, apple, or orange into jetson-inference/python/training/classification/data/dataset/test/TestHere
 
 
-    4. In your terminal, run this command: cd jetson-inference/python/training/classification
+3. Name your image Test.png(Or jpg or any other image type)
 
 
-    5. Run this command: NET=models/fruitmodel  DATASET=data/dataset
+4. In your terminal, run this command: 
+    
+        cd jetson-inference/python/training/classification
+
+    
+5. Run this command:
+  
+       NET=models/fruitmodel  DATASET=data/dataset
 
 
-    6. Run this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/TestHere/Test.png(or replace png with any other image type) TestPhoto.jpg
+8. Run this command:
+  
+        imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/TestHere/Test.png(or replace png with any other image type) TestPhoto.jpg
 
 
-    7. Click your image to see results
+11. Click your image to see results
 
 
 # Documentation
