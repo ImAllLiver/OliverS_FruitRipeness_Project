@@ -58,7 +58,7 @@ To use my model, you must:
        NET=models/fruitmodel  DATASET=data/dataset
 
 
-8. Run this command:
+8. Run this command(make sure to replace test.png and the text in the ()s after with your image name):
   
         imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/TestHere/Test.png(or replace png with any other image type) TestPhoto.jpg
 
