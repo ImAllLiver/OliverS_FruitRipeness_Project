@@ -82,3 +82,5 @@ Oranges:
         2. https://drive.google.com/file/d/13VCSR-bT25F1bHBLhsB2Gu8Re7yKPbDF/view?usp=sharing
         3. https://drive.google.com/file/d/1f4GyyBUJoK1hO2E8jm1bCAcpI9fyfaza/view?usp=sharing
 
+
+This is the link to the planning document that I made before I started my project: https://docs.google.com/document/d/116cEfDgkRmzl7fPiYbzr0SGxpogb3c_0XX9uppdWtPE/edit?usp=sharing 
