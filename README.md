@@ -17,7 +17,7 @@ For my project, I downloaded a dataset called "Fruit Ripeness: Unripe, Ripe, and
 This is the link for the dataset on Kaggle: https://www.kaggle.com/datasets/leftin/fruit-ripeness-unripe-ripe-and-rotten
 
 
-Video explanation: https://drive.google.com/file/d/1lZBsZNtcRPTQTwOVjrq-qCi03ReACxVT/view?usp=drive_link  
+Video explanation: [https://drive.google.com/file/d/1lZBsZNtcRPTQTwOVjrq-qCi03ReACxVT/view?usp=drive_link  ]
 
 
 
