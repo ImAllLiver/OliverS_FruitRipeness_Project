@@ -22,7 +22,7 @@ Video explanation: https://drive.google.com/file/d/1gdK6kJDGGzuR7s0vXGrnq17S0xNt
 
 
 
-## The Algorithm
+## The Algorithm and Neural Network
 To train the model, I ran a command in the docker of Jetson-Inference to prompt the training. This was the command: python3 train.py --model-dir=models/dataset data/dataset. This made the model run through 35 different epochs of every single image in the folder which trained it to recognize whether fruits are unripe, ripe, or rotten. In my project, I used a neural network on Jetson-Inference called Image-net. Image-net lets you use the AI to scan images and uses image classification to determine what each object is. Also, for Image-net, what you have to do is train the model to recognize certain things that you want. For me, I did it to recognize whether fruits apple, banana, and orange are ripe, unripe, or rotten.
 
 How to get clone Jetson-Inference from GitHub:
