@@ -67,17 +67,17 @@ To use my model, you must:
 # Documentation
 These are some examples of ripe, unripe, and rotten fruit images that I ran:
 
-    Apples:
+Apples:
         1. https://drive.google.com/file/d/1EusvHMNdR-uVSLOxlDeyTtyf1wWbf8O4/view?usp=sharing
         2. https://drive.google.com/file/d/1Yuvkl9sig12LaSleOUIamSYbAk1G2IGm/view?usp=sharing 
         3. https://drive.google.com/file/d/1QXi3UgW5qVqG05ZwQmp_niZfWGytk7YM/view?usp=sharing 
 
-    Bananas:
+Bananas:
         1. https://drive.google.com/file/d/10a7QJUK2qrIDuL-s6UUDLKi-_335p4WN/view?usp=sharing 
         2. https://drive.google.com/file/d/1Eb6nEwZgJJ9i21yUZmuyckxAsc1k1rjB/view?usp=sharing 
         3. https://drive.google.com/file/d/1XC53tDchmyWE5WaSokep-Am9u7-VBIZI/view?usp=sharing 
 
-    Oranges:
+Oranges:
         1. https://drive.google.com/file/d/1ohDhccwvPQ_tL37TPSRN9AjZOT7PSGCI/view?usp=sharing
         2. https://drive.google.com/file/d/13VCSR-bT25F1bHBLhsB2Gu8Re7yKPbDF/view?usp=sharing
         3. https://drive.google.com/file/d/1f4GyyBUJoK1hO2E8jm1bCAcpI9fyfaza/view?usp=sharing
