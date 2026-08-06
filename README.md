@@ -51,7 +51,7 @@ How to get clone Jetson-Inference from GitHub:
 # Steps
 To use my model, you must:
 
-1. Go to my GitHub post and download my model into VS Code
+1. Go to my GitHub post and download my model and dataset into VS Code
 
 
 2. Enter your image of a banana, apple, or orange into jetson-inference/python/training/classification/data/dataset/test/TestHere
